@@ -1,0 +1,93 @@
+@import 'variables';
+
+*{
+  margin: 0;
+}
+
+body {
+  background-color: $neutralcolor-lightest;
+}
+
+
+.App__bar{
+  background-color: $brandcolor-primary-darkest;
+  margin-bottom: 28px;
+}
+
+.App__title {
+  color: $neutralcolor-lightest;
+  padding: 12px;
+}
+
+.Board__grid {
+  margin-left: 0px !important;
+}
+
+.ColumnBoard__content {
+  border: 1px solid $neutralcolor-light;
+  height: 400px;
+  margin: 20px 10px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: $brandcolor-primary-darkest;
+}
+
+.ColumnBoard__droppable {
+  height: 350px;
+  overflow-y: auto;
+}
+
+.TodoList__item {
+  padding: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-bottom: 18px;
+
+}
+
+.TodoItem__box {
+  height: 28px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: $neutralcolor-light;
+  cursor: pointer;
+  border-radius: 5px;
+  overflow-y: auto;
+}
+
+.ColumnBoard__title{
+  border: 1px solid $brandcolor-primary-light;
+  border-radius: 4px;
+  padding: 10px;
+  color: $brandcolor-primary-light;
+  margin-bottom: 12px !important;
+}
+
+.TodoItem__buttons{
+  display: flex;
+  gap: 10px;
+  
+  .TodoItem__editIcon{
+    color: $brandcolor-primary-darkest;
+    cursor: pointer;
+  }
+
+  .TodoItem__deleteIcon{
+    color: $errorcolor-primary;
+    cursor: pointer;
+  }
+
+}
+
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $brandcolor-primary-light;
+}
+
