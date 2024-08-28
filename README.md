@@ -1,5 +1,5 @@
 
-# React Todo App with Firebase🔥
+# React TODO App with Firebase🔥
 This is a sample react todo app using Firebase (Firebase Cloud Firestore) to CRUD.
 
 ## Instructions
